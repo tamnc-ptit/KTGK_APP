@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvFormHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm sách mới"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã sách *"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtBookId"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Ví dụ: S001"
+            android:inputType="textCapCharacters"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách *"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nhập tên sách"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tác giả *"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtBookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nhập tên tác giả"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể loại *"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtBookCategory"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Ví dụ: Công nghệ thông tin, Văn học..."
+            android:inputType="text"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSaveBook"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Lưu thông tin sách"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

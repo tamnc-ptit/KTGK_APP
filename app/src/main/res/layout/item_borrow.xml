@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvBorrowBookInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sách: Lập trình Android [S001]"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#212121" />
+
+    <TextView
+        android:id="@+id/tvBorrowerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Người mượn: Trần Văn B - SĐT: 0987654321"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvBorrowDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày mượn: 13/11/2026 | Hạn trả: 20/11/2026"
+        android:textSize="13sp"
+        android:textColor="#D84315"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/btnReturnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Trả sách"
+        android:backgroundTint="#E65100"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
